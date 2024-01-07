@@ -1,0 +1,365 @@
+.tab { 
+    background-color: #000;
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 100vh;
+    left: -1500px;
+    top: 0;
+    transition: all 0.9s !important;
+    float: left;
+    border-radius: 5px;
+    position: fixed;
+}
+.tab .closeBtn {
+    margin-left: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.9s !important;
+}
+.tab .text ul {
+    list-style-type: none;
+}
+.tab .text ul li {
+    margin-bottom: 15px;
+}
+.tab .text ul li a{
+    text-decoration: none;
+    color: #a8a9b4;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+}
+.tab .text ul li:hover a{
+    color: #fff;
+}
+.tab .text ul li:hover a i{
+    color: #18D8EF;
+}
+.show-tab{
+    left: 10px !important;
+    transition: all 0.5s ease-out !important;
+    opacity: 1;
+}
+.profile {
+    margin-left: 75px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.profile h3 i{
+    color: #18D8EF;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    color: #fff;
+}
+.profile a:hover img{
+    box-shadow: 230px 230px inset;
+    border-radius: 50%;
+    border : 1px solid;
+    color: #fff;
+    transform: scale(1.1,1.1)
+}
+.profile h3{
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.menu{
+    background-color: #fff;
+    position: absolute;
+    left : 20px;
+    color: #fff;
+    display: block;
+    position: fixed;
+}
+.overlay{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width : 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    z-index: -1;
+}
+.show-overlay{
+    opacity: 0.5 !important;
+}
+.menu, .mode{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+}
+.menu i, .mode i{
+    font-size: 50px;
+    border-radius: 10px;
+}
+button {
+    border-radius: 10px;
+    border: none;
+}
+body {
+    background-color: #000;
+}
+.animation {
+    position: absolute;
+    z-index: 7;
+}
+.backzurag{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.zurag{
+    position: relative;
+}
+.zurag img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.ner {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-left: 150px;
+    margin-top: 290px;
+}
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .12em solid white;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .0em;
+    margin-left: 150px;
+    margin-top: 10px;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+ 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: #fff}
+  }
+.icons1 {
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.icons1 i {
+    margin-left : 30px;
+    cursor: pointer;
+    color :#fff;
+    transition: all 0.5s ease-out;
+}
+.icons1 a:hover i{
+   border-bottom: 2px solid;
+}
+.abtm {
+    margin-left: 60px;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.zuraas {
+    border-bottom: 2px solid #18D8EF;
+    margin-left: 90px;
+    width: 120px
+  }
+.aboutm {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.aboutm img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.text1 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 80px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+.li1 { 
+    margin-left: 500px;
+    position: absolute;
+    top: 0px;
+    width: 400px;
+    margin-top: 50px;
+}
+.li1 p {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px; 
+    padding: 10px; 
+}
+.li2 {
+    margin-left: 900px;
+    position: absolute;
+    width: 400px;
+    top: 55px;
+    
+}
+.li2 p {
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.li1 i, .li2 i{
+    color: #18D8EF;
+}
+.skill-des {
+    color: #fff;
+    margin-left: 35px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    margin-bottom : 30px;
+}
+.skill-des p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.skill-des i{
+    font-size: 15px;
+    color: #18D8EF;
+}
+.skills .garchig{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.skills {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.skills .diagram{
+    margin-left: 0px;
+   
+}
+.progress {
+    margin: 10px;
+    border-radius: 1px;
+    
+}
+.diagram {
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.diagram span{
+    color: #fff;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.progress-bar {
+    background-color:  #18D8EF;
+}
+.portfolio .garchig {
+    margin-left: 30px;
+}
+.text3 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 80px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+.lastsec {
+    width: 100%;
+    height: 40px;
+    background: #18D8EF;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.lastsec p{
+    font-size: 16px;
+    padding-top: 7px;
+}
+.text3 {
+    margin-left: 15px;
+}
+.text3 i{
+    color: #18D8EF;
+    font-size: 15px;
+
+}
+.s1 {
+    float: left;
+    padding: 10px;
+}
+.purecounter {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #34c2ff;
+  }
+.s1 p{
+    font-size: 35px;
+    padding-top: 0px;
+}
+.s1 i{
+    font-size: 145px;
+
+}.sanalhuselt {
+    margin-top: 55px;
+}
+.f1 {
+    text-align: center;
+}
+.f1 h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+}
+form {
+    margin-top: 45px;
+}
+.fn1 {
+    width: 400px;
+    margin-top: 15px;
+    background: #fff;
+    border: 3px solid #18D8EF;
+    border-radius: 5px;
+    height: 60px;
+}
+.fn2 {
+    width: 400px;
+    height: 100px;
+    margin-top: 15px;
+    padding-bottom: 75px;
+    background: #fff;
+    border: 3px solid #18D8EF;
+    border-radius: 7px;
+}
+.fn3 {
+    margin-top: 25px;
+    background: #18D8EF;
+    color: #fff;
+    font-size: 26px;
+    width: 150px;
+    border-radius: 7px;
+}
+
